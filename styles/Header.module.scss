@@ -1,0 +1,49 @@
+.container {
+  margin: 0 8vw;
+  .nav {
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 64px;
+    .logo {
+      display: flex;
+      align-items: center;
+      h1 {
+        margin: 0 0 0 20px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .poro {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  ul {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    li {
+      margin: 0 40px 0 0;
+      list-style: none;
+    }
+    button {
+      font-size: 1.5rem;
+      color: white;
+      padding: 20px 60px;
+      border-radius: 50px;
+      background: #05070d;
+      border: 1px solid white;
+      transition: 0.3s;
+      &:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        color: black;
+        box-shadow: inset 16rem 0 0 0 white;
+      }
+    }
+  }
+}

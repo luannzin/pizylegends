@@ -1,0 +1,20 @@
+.container {
+  color: white;
+  margin: 0 8vw;
+}
+
+.allChampions {
+  text-align: center;
+  font-size: 4rem;
+  margin: 10vh 0 0 0;
+}
+
+.champions {
+  .champion {
+    background: #06080e;
+    display: flex;
+    .championDesc {
+      display: flex;
+    }
+  }
+}

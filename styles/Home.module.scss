@@ -1,0 +1,85 @@
+.container {
+  margin: 0 8vw;
+  color: white;
+}
+
+.presentation {
+  margin: 16vh 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .presentationText {
+    margin: -50px 0 0 0;
+    h1 {
+      margin: 0;
+      max-width: 450px;
+      font-weight: 400;
+      font-size: 6rem;
+      line-height: 120%;
+    }
+    p {
+      margin: 0;
+      font-size: 2rem;
+    }
+    button {
+      margin: 20px 0 0 0;
+      border: 1px solid white;
+      border-radius: 50px;
+      padding: 20px 80px;
+      font-size: 1.5rem;
+      color: white;
+      background: #05070d;
+      transition: 0.3s;
+      &:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        color: black;
+        box-shadow: inset 16rem 0 0 0 white;
+      }
+    }
+  }
+}
+
+.data {
+  margin: 27vh 0 0 0;
+  .lolData {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      filter: grayscale(1);
+      border: 2px solid white;
+      border-radius: 50px;
+      min-height: 70vh;
+      min-width: 35vw;
+      margin: 20px 20px;
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+      p {
+        margin: 16px 0 0 0;
+        font-size: 1.5rem;
+        max-width: 55%;
+        text-align: center;
+        font-weight: 400;
+      }
+      &:hover {
+        .image,
+        .imagePoro {
+          transform: scale(0.9);
+        }
+        cursor: pointer;
+        filter: grayscale(0) saturate(2);
+      }
+    }
+  }
+}
