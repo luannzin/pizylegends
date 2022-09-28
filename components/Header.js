@@ -20,10 +20,13 @@ const Header = () => {
             <h1>PIZY LEGENDS</h1>
           </div>
         </Link>
-
         <ul>
-          <li>Campeões</li>
-          <li>Itens</li>
+          <Link href="/champions">
+            <li>Campeões</li>
+          </Link>
+          <Link href="/itens">
+            <li>Itens</li>
+          </Link>
           <Link href="/contato">
             <button>Contato</button>
           </Link>
