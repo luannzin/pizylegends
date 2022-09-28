@@ -29,6 +29,9 @@
     li {
       margin: 0 40px 0 0;
       list-style: none;
+      &:hover {
+        cursor: pointer;
+      }
     }
     button {
       font-size: 1.5rem;
