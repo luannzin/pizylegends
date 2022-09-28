@@ -39,7 +39,7 @@ const champion = ({ id }) => {
 
   const renderChampion = React.useCallback(async () => {
     const resposta = await fetch(
-      `http://ddragon.leagueoflegends.com/cdn/12.18.1/data/en_US/champion/${id}.json`
+      `https://ddragon.leagueoflegends.com/cdn/12.18.1/data/en_US/champion/${id}.json`
     );
 
     const json = await resposta.json();
