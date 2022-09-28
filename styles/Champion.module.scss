@@ -2,6 +2,7 @@
   min-width: 100vw;
   min-height: 100vh;
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   opacity: 0.4;
   position: absolute;
@@ -16,7 +17,7 @@
 }
 
 .champion {
-  margin-top: 6vh;
+  margin-top: 1vh;
   padding: 48px;
   border-radius: 12px;
   display: flex;

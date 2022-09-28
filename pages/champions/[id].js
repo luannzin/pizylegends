@@ -60,6 +60,7 @@ const champion = ({ id }) => {
             background: `url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
           className={styles.background}
         ></div>
