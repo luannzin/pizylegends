@@ -10,11 +10,59 @@
 }
 
 .champions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 84vw;
+  margin: 0 0 6vh 0;
   .champion {
+    filter: grayscale(1);
+    margin: 60px 0 0 0;
+    min-width: 48%;
+    max-height: 128px;
+    padding: 4px 0 4px 8px;
+    border: 2px solid white;
+    border-radius: 24px;
     background: #06080e;
     display: flex;
-    .championDesc {
+    transition: 0.15s;
+    .championInfo {
+      margin: 0 0 0 16px;
       display: flex;
+      flex-direction: column;
+      h1 {
+        line-height: 50%;
+        font-size: 2.5rem;
+      }
     }
+    &:hover {
+      transform: scale(0.95);
+      filter: grayscale(0);
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .championDesc {
+      min-width: calc(40vw - 128px - 16px);
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      .championClass {
+        color: #ff321d;
+      }
+    }
+  }
+
+  .sentinel {
+    background: url(https://developer.riotgames.com/static/img/katarina.55a01cf0560a.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    min-width: 84vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

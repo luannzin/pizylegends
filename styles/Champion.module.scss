@@ -1,0 +1,62 @@
+.background {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  color: white;
+  margin: 0 8vw;
+}
+
+.champion {
+  margin-top: 6vh;
+  padding: 48px;
+  border-radius: 12px;
+  display: flex;
+  background: #0c0e15;
+  opacity: 0.9;
+  background-blend-mode: saturation;
+  .championInfo {
+    margin: 0 0 0 40px;
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+    .championSkills {
+      h2 {
+        font-size: 3rem;
+      }
+      img {
+        width: 100px;
+        border-radius: 6px;
+        margin: 0 20px 0 0;
+        border: 2px solid white;
+        padding: 4px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .championSkillsDesc {
+        max-width: 99%;
+        p {
+          margin: 20px 0 0 0;
+        }
+        .bold {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
