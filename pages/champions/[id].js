@@ -62,7 +62,7 @@ const champion = ({ id }) => {
             backgroundSize: "cover",
             backgroundPosition: "center",
             maxWidth: "100vw",
-            maxHeight: "100vw,
+            maxHeight: "100vw",
           }}
           className={styles.background}
         ></div>
