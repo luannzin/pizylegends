@@ -75,7 +75,7 @@ const champion = ({ id }) => {
             <h1>{id}</h1>
             <p>{data.title}</p>
             <div className={styles.championSkills}>
-              <h2>Skills</h2>
+              <h2>Habilidades</h2>
               <div onClick={handleClick} className={styles.championSkillsImage}>
                 <img
                   src={`https://ddragon.leagueoflegends.com/cdn/12.18.1/img/passive/${data.passive.image.full}`}
