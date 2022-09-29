@@ -11,7 +11,7 @@ const index = () => {
 
   const renderAllChampions = React.useCallback(async () => {
     const response = await fetch(
-      "https://ddragon.leagueoflegends.com/cdn/12.18.1/data/en_US/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/12.18.1/data/pt_BR/champion.json"
     );
 
     const json = await response.json();
